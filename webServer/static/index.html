@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chat</title>
+	<link type="text/css" rel="stylesheet" href="/public/index.css">
+</head>
+
+<body>
+	<div id="main">
+		<div id="login">
+			<p>Log in:</p>
+			<form id="loginForm">
+				<label>Username</label>
+				<input type="text" size="32" id="username">
+				<label>Password</label>
+				<input type="password" id='password'>
+				<input type="submit" value="Submit">
+			</form>
+			<div id="loginFailed"></div>
+		</div>
+
+		<div id="chatWindow">
+			<h1>Chat</h1>
+			<div id="usersList"></div>
+			<div id="chat">
+				<div id="chatList"></div>
+				<form id="chatForm">
+					<input type="text" size="32" id="message" placeholder="">
+					<input type="submit" value="Submit" id="messageSubmit">
+				</form>
+			</div>
+
+		</div>
+	</div>
+	<script src="http://127.0.0.1:3000/socket.io/socket.io.js"></script>
+	<script src="/public/index.js"></script>
+</body>
+
+</html>

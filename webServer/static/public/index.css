@@ -1,0 +1,48 @@
+#main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#login {
+    float: left;
+    border: 1px #ccc solid;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+input {
+    height: 20px;
+    border: 1px solid black;
+}
+
+li {
+list-style: none;
+}
+
+h1 {
+    color: orange;
+}
+
+#chatWindow {
+    display: none;
+}
+
+#chat {
+    float: left;
+    border: 1px solid black;
+    background: grey;
+    padding: 10px;
+}
+
+#chatList {
+    height: 300px;
+}
+
+#usersList {
+    float: left;
+    border: 1px solid blacK;
+    background: orange;
+    padding-left: 10px;
+    width: 100px;
+}
